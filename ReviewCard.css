@@ -1,0 +1,30 @@
+.review-card {
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin: 1rem 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .review-card h3 {
+    margin-top: 0;
+    font-size: 1.6rem;
+    color: #333;
+  }
+  
+  .review-card p {
+    margin: 0.5rem 0;
+    color: #666;
+  }
+  
+  .review-card p strong {
+    color: #333;
+  }
+  

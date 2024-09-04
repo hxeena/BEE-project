@@ -1,0 +1,87 @@
+/* Main container for the LoginPage */
+.login-page {
+    display: flex;
+    height: 100vh;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  /* Left side styling */
+  .left-side {
+    flex: 1;
+    background-color: #2d3e50;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .text-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .left-side h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .left-side p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .explore-button {
+    padding: 0.75rem 2rem;
+    font-size: 1.1rem;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-bottom: 1.5rem;
+  }
+  
+  .explore-button:hover {
+    background-color: #16a085;
+    transform: scale(1.05);
+  }
+  
+  .info-text {
+    font-size: 1.1rem;
+    color: #d0dbe1;
+    margin-bottom: 2rem;
+  }
+  
+  /* Additional content styling */
+  .additional-content {
+    margin-top: 2rem;
+  }
+  
+  .additional-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .additional-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .additional-content li {
+    font-size: 1.1rem;
+    color: #b0c4de;
+    margin: 0.5rem 0;
+  }
+  
+  /* Right side styling */
+  .right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 2rem;
+  }
+  

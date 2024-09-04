@@ -1,0 +1,166 @@
+/* Main container for the LoginPage */
+.login-page {
+  display: flex;
+  height: 100vh;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Left side styling */
+.left-side {
+  flex: 1;
+  background-color: #2d3e50;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.text-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.left-side h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.left-side p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.explore-button {
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.explore-button:hover {
+  background-color: #16a085;
+  transform: scale(1.05);
+}
+
+.info-text {
+  font-size: 1.1rem;
+  color: #d0dbe1;
+  margin-bottom: 2rem;
+}
+
+/* Additional content styling */
+.additional-content {
+  margin-top: 2rem;
+}
+
+.additional-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.additional-content ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.additional-content li {
+  font-size: 1.1rem;
+  color: #b0c4de;
+  margin: 0.5rem 0;
+}
+
+/* Right side styling */
+.right-side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 2rem;
+}
+
+.login-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-container h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #2d3e50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.login-button:hover {
+  background-color: #1abc9c;
+  transform: scale(1.05);
+}
+
+.forgot-password {
+  margin-top: 1rem;
+  color: #999;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.forgot-password:hover {
+  color: #333;
+}
